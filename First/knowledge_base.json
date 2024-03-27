@@ -1,0 +1,30 @@
+{
+	"questions": [
+	{
+		"tag": "greeting",
+		"question": [
+			"Bonjour",
+			"Coucou",
+			"Salut"
+		],
+		"answer": [
+			"Bonjour",
+			"Salut",
+			"Hello"
+		]
+	},
+	{
+		"tag": "goodbye",
+		"question": [
+			"Au revoir",
+			"A bient\u00f4t",
+			"A la prochaine"
+		],
+		"answer": [
+			"Au revoir",
+			"A bient\u00f4t",
+			"A la prochaine"
+		]
+	}
+	]
+}

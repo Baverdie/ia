@@ -1,0 +1,81 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Bonjour",
+				"Bonsoir",
+				"Hey",
+				"Coucou",
+				"Hello"
+			],
+			"responses": [
+				"Bonjour ! Comment puis-je vous aider ?",
+				"Salut ! En quoi puis-je vous assister aujourd'hui ?",
+				"Salutations ! Que puis-je faire pour vous ?",
+				"Bonsoir ! Comment puis-je vous aider ?",
+				"Hey ! En quoi puis-je vous assister aujourd'hui ?",
+				"Coucou ! Que puis-je faire pour vous ?",
+				"Hello ! Comment puis-je vous aider ?",
+				"Salut ! Que puis-je faire pour vous ?",
+				"Bonjour ! En quoi puis-je vous assister aujourd'hui ?",
+				"Salutations ! Comment puis-je vous aider ?",
+				"Bonsoir ! Que puis-je faire pour vous ?",
+				"Hey ! Comment puis-je vous aider ?",
+				"Coucou ! En quoi puis-je vous assister aujourd'hui ?",
+				"Hello ! Que puis-je faire pour vous ?",
+				"Salut ! Comment puis-je vous aider ?",
+				"Bonjour ! Que puis-je faire pour vous ?",
+				"Salutations ! En quoi puis-je vous assister aujourd'hui ?",
+				"Hey ! Que puis-je faire pour vous ?",
+				"Coucou ! Comment puis-je vous aider ?",
+				"Hello ! En quoi puis-je vous assister aujourd'hui ?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["Au revoir", "À bientôt", "Adieu", "À la prochaine", "À plus tard", "À tout à l'heure", "Au plaisir", "Ciao", "Salut", "Bye", "Bonne journée", "Bonne soirée", "À demain", "À la revoyure", "À la semaine prochaine"],
+			"responses": ["Au revoir ! Passez une bonne journée !", "À bientôt !", "Adieu ! Prenez soin de vous.", "À la prochaine !", "À plus tard !", "À tout à l'heure !", "Au plaisir de vous revoir !", "Ciao !", "Salut ! À la prochaine.", "Bye !", "Bonne journée à vous aussi !", "Bonne soirée !", "À demain !", "À la revoyure !", "À la semaine prochaine !"]
+		},
+		{
+			"tag": "thanks",
+			"patterns": ["Merci", "Merci beaucoup"],
+			"responses": ["De rien !", "Content d'avoir pu vous aider !", "Pas de problème !"]
+		},
+		{
+			"tag": "options",
+			"patterns": ["Qu'est-ce que tu peux faire ?", "Quelles sont tes capacités ?"],
+			"responses": ["Je peux vous aider avec diverses tâches. Dites-moi simplement ce dont vous avez besoin d'aide !"]
+		},
+		{
+			"tag": "weather",
+			"patterns": ["Quel temps fait-il ?", "Quelle est la prévision météo ?"],
+			"responses": ["Vous pouvez consulter la prévision météo sur différents sites web ou applications comme Météo France ou AccuWeather."]
+		},
+		{
+			"tag": "help",
+			"patterns": ["Aide", "Besoin d'aide"],
+			"responses": ["Je suis là pour aider. De quoi avez-vous besoin d'aide ?"]
+		},
+		{
+			"tag": "time",
+			"patterns": ["Quelle heure est-il ?", "Peux-tu me dire l'heure ?"],
+			"responses": ["Vous pouvez vérifier l'heure sur votre appareil ou demander à votre assistant vocal comme Siri ou Google Assistant."]
+		},
+		{
+			"tag": "about_bot",
+			"patterns": ["Qu'est-ce que tu es ?", "Qui t'a créé ?"],
+			"responses": ["Je suis un chatbot conçu pour aider les utilisateurs dans diverses tâches. J'ai été créé par des développeurs chez OpenAI."]
+		},
+		{
+			"tag": "feelings",
+			"patterns": ["Comment vas-tu ?", "Comment te sens-tu ?"],
+			"responses": ["Je suis juste un assistant virtuel, donc je n'ai pas de sentiments, mais merci de demander ! Comment puis-je vous aider aujourd'hui ?"]
+		},
+		{
+			"tag": "funny",
+			"patterns": ["Raconte-moi une blague", "Peux-tu me faire rire ?"],
+			"responses": ["Bien sûr ! Pourquoi les scientifiques ne font-ils pas confiance aux atomes ? Parce qu'ils composent tout ! 😄"]
+		}
+	]
+}
